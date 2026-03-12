@@ -3,7 +3,7 @@ cask "fscli" do
   name "fscli"
   desc "A cli tool for firestore"
   homepage "https://github.com/maruware/fscli"
-  version "0.14.0"
+  version "0.14.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fscli" do
   on_macos do
     on_intel do
       url "https://github.com/maruware/fscli/releases/download/v#{version}/fscli_#{version}_darwin_amd64.tar.gz"
-      sha256 "eb5a2372a51aa78e62a82078c8f7eca47dd3055c6f27318c416af11c5eadef84"
+      sha256 "c8631a123adec5a6cb8c62ce9dd50dc3a4a489cdcd8f8847c2dd12bb51da4802"
     end
     on_arm do
       url "https://github.com/maruware/fscli/releases/download/v#{version}/fscli_#{version}_darwin_arm64.tar.gz"
-      sha256 "15a435950ec8ecfdc9278c4a67bb7e1ce19632187c3a9855c0480906d36967d4"
+      sha256 "9ff3282bf21ef4d3636a731f8e6d8b9989d1c2afbb98b85d8dbda2dad9d68bf4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/maruware/fscli/releases/download/v#{version}/fscli_#{version}_linux_amd64.tar.gz"
-      sha256 "218318632625e23707934b49fdc9ed5607380c01bbbc9b273a73e7e52a8963be"
+      sha256 "c26196a97800b6962f747fb24fcdf38c1f0d276d04dea6d8f8e3804e8b845104"
     end
     on_arm do
       url "https://github.com/maruware/fscli/releases/download/v#{version}/fscli_#{version}_linux_arm64.tar.gz"
-      sha256 "fe5daf01678d2ed5c35cba163c9a0f88ccb719c0ad73a40fe4b38dba4ce1c494"
+      sha256 "2bae04f75c3db41a7e431933f7581fb981bd5ea09ac10a8d3663d8b75c4466a0"
     end
   end
 
